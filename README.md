@@ -1,3 +1,2 @@
-# Book-List
-OOP Book List Project.
-ES5 syntax with constructors and prototypes.
+# Book-List ES5 Syntax
+Book List Project using constructors and prototypes.
