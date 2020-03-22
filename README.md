@@ -1,2 +1,2 @@
 # Book-List - ES6 Syntax
-Book List Project using Classes.
+Book List Project with Local Storage.
