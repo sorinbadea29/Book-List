@@ -17,15 +17,14 @@ class UI{
     document.getElementById('isbn').value = '';
   };
 
-  showAlert(message, className, timeout){
+  setMessage(nameOfClass, message, time){
     const container = document.querySelector('.container');
     const form = document.querySelector('#book-form');
-    const div  = document.createElement('div');
-    div.classList.add('alert');
-    div.classList.add(className);
-    div.appendChild(document.createTextNode(message));
-    container.insertBefore(div, form);
-    setTimeout(() => {div.remove()}, timeout);
+    const messageDiv  = document.createElement('div');
+    messageDiv.classList.add(nameOfClass);
+    messageDiv.appendChild(document.createTextNode(message));
+    container.insertBefore(messageDiv, form);
+    setTimeout(() => {messageDiv.remove()}, time);
   };
 
   deleteBook(target){
